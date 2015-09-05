@@ -1,0 +1,19 @@
+mixin button(config)
+  - var _config = config || {}
+  - var _id = config.id || ''
+  - var _type = config.type || ''
+  - var _classes = config.classes || ''
+  - var _value = config.value || '_self'
+  - var _label = config.label || 'Default Link'
+
+  button(
+    id=_id,
+    type=_type,
+    class=_classes,
+    value=_value,
+    label=_label
+  )
+    if block
+      block
+    else
+      != _label

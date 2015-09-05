@@ -1,0 +1,62 @@
+// All global variables go here...
+
+@import 'colors';
+
+@import 'breakpoints';
+
+// Font Family
+$base-font-family: $font-sans-serif-reg;
+$heading-font-family: $font-serif-text-demi;
+$sub-heading-font-family: $font-sans-serif-semibold;
+
+// Font Colors
+$base-font-color: $gray-dark;
+$heading-font-color: $gray-white;
+$action-color: $brand-turquoise;
+$button-font-color: $gray-white;
+
+
+// Font Sizes
+$base-font-size: 1em;
+$heading-font-size: $base-font-size * 3;
+$sub-heading-font-size: $base-font-size * 1.5;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Border
+$base-border-color: $gray;
+$base-border: 1px solid $base-border-color;
+$base-border-radius: 0px;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);
+$button-bg-color: $brand-red;
+
+// Spacing
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Hero Vars
+$hero-font-color: $heading-font-color;
+$hero-heading-font-size: $heading-font-size * .45;
+$hero-text-transform: uppercase;
+$hero-text-align: left;
+$hero-top-spacing: $base-spacing * 6;
+
+// Main Nav Vars
+$nav-menu-font-color:  $gray-white;
+$nav-menu-font-size: $heading-font-size * 2;
+$nav-menu-text-transform: none;
+$nav-menu-vert-spacing: $base-spacing / 3;
+
+
+
+

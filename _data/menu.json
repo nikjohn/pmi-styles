@@ -1,0 +1,54 @@
+{
+  "title" : "Menu",
+  "name" : "menu",
+  "meta" : {
+    "content" : "The PMI menu page shows the latest designs."
+  },
+  "class" : "menu",
+  "hero" : {
+    "headline" : "Menu marketing headline here",
+    "description" : "Insert clever catch phrase here!",
+    "attribute" : "Cowboy Pizza",
+    "button" : {
+      "label" : "Button 1",
+      "href" : "/menu"
+    }
+  },
+  "carousel" : {
+    "slides" : [
+      {
+        "headline" : "Menu marketing headline goes here",
+        "description" : "Insert clever catch phrase here!",
+        "button" : {
+          "label" : "Button 1",
+          "href" : "/menu"
+        },
+        "media" : "assets/images/cowboy-lg-16x9.jpg",
+        "attr" : "Cowboy Pizza"
+      },
+      {
+        "headline" : "Menu marketing headline goes here",
+        "description" : "Insert clever catch phrase here!",
+        "button" : {
+          "label" : "Button 2",
+          "href" : "/menu"
+        },
+        "media" : "assets/images/cowboy-lg-16x9.jpg",
+        "attr" : "Cowboy Pizza"
+      },
+      {
+        "headline" : "Menu marketing headline goes here",
+        "description" : "Insert clever catch phrase here!",
+        "button" : {
+          "label" : "Button 3",
+          "href" : "/menu"
+        },
+        "media" : "assets/images/cowboy-lg-16x9.jpg",
+        "attr" : "Cowboy Pizza"
+      }
+    ]
+  }
+
+
+
+}

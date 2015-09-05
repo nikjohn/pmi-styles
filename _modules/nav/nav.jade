@@ -1,0 +1,10 @@
+include ../link/link
+include ../image/image
+nav.main-nav
+  h1.logo
+    +link({href:site.data.nav.logo.href})
+      +image({src:site.data.nav.logo.src, alt:site.data.nav.logo.alt})
+  ul
+    each item in site.data.nav.items
+      li
+        +link({href:item.href})= item.label

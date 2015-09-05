@@ -1,0 +1,9 @@
+include ../input/input
+ul(id='#{site.data.index.crust.id}', class='#{site.data.index.crust.class}')
+  each item in site.data.index.crust.items
+    li
+      +input({type:item.type, name:item.name, id:item.id})
+      label(for='#{item.id}')
+        span
+        h2= item.text
+        p= item.description

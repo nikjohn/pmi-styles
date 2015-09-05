@@ -1,0 +1,89 @@
+{
+  "title" : "Style Guide",
+  "name" : "styleguide",
+  "meta" : {
+    "content" : "The Style Guide page show examples of all modules and partials used in the PMI website."
+  },
+  "class" : "styleguide",
+  "banner" : {
+    "hero" : {
+      "headline" : "Cowboy | $12.00",
+      "description" : "It’s a round-up of your favorite flavors – pepperoni, sausage, sliced mushrooms and black olives on traditional red sauce with our herb and cheese blend.",
+      "attribute" : "Cowboy Pizza",
+      "button" : {
+        "label" : "Place Order",
+        "href" : "#"
+      }
+    }
+  },
+  "typography" : {
+    "headline" : "Typography examples",
+    "h1" : {
+      "text" : "H1 Headline Example Text",
+      "class" : "h1"
+    },
+    "h2" : {
+      "text" : "H2 Headline Example Text",
+      "class" : "h2"
+    },
+    "h3" : {
+      "text" : "H3 Headline Example Text",
+      "class" : "h3"
+    },
+    "h4" : {
+      "text" : "H4 Headline Example Text",
+      "class" : "h4"
+    },
+    "h5" : {
+      "text" : "H5 Headline Example Text",
+      "class" : "h5"
+    },
+    "h6" : {
+      "text" : "H6 Headline Example Text",
+      "class" : "h6"
+    },
+    "description" : "Paragraph Headline Example Text"
+  },
+  "crust" : {
+    "headline" : "Crust",
+    "subheadline" : "Select Your",
+    "id" : "crust-selector",
+    "class" : "selector",
+    "items" : [
+      {
+        "id" : "original",
+        "type" : "radio",
+        "name" : "radio-1",
+        "checked" : "false",
+        "description" : "Our traditional scratch-made crust",
+        "text" : "Original"
+      },
+      {
+        "id" : "thin",
+        "type" : "radio",
+        "name" : "radio-1",
+        "checked" : "false",
+        "description" : "A lighter, crispier crust",
+        "text" : "Thin"
+      },
+      {
+        "id" : "fresh-pan",
+        "type" : "radio",
+        "name" : "radio-1",
+        "checked" : "false",
+        "description" : "A thick buttery crust",
+        "text" : "Fresh Pan"
+      },
+      {
+        "id" : "nutrition",
+        "type" : "radio",
+        "name" : "radio-1",
+        "checked" : "false",
+        "description" : "Two Layers of original crust",
+        "text" : "Nutrition"
+      }
+    ]
+  }
+
+
+}

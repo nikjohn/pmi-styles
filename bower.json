@@ -1,0 +1,22 @@
+{
+  "name": "pmi-styles",
+  "version": "0.0.0",
+  "authors": [
+    "John",
+    "Nikhil (US - Bengaluru) <nikjohn@deloitte.com>"
+  ],
+  "description": "Global styles for PMI",
+  "license": "MIT",
+  "main": "styles/main.scss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:nikjohn/pmi-styles.git"
+  }
+}

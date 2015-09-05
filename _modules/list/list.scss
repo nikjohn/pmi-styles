@@ -1,0 +1,66 @@
+// list styles
+section.lists {
+  h1, h2 {
+    text-align: center;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+
+    }
+  }
+}
+
+.selector {
+  @include align-items(stretch);
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
+  > li {
+    @include flex(1);
+    input[type="radio"] {
+      display:none;
+
+      + label {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        color: $base-font-color;
+        vertical-align: bottom;
+        text-align: center;
+        span {
+          display: inline-block;
+          width: 150px;
+          height: 150px;
+          background-color: $brand-red;
+          vertical-align:middle;
+          cursor:pointer;
+          border-radius:  50%;
+        }
+        h2 {
+          margin-top: $base-spacing;
+        }
+      }
+
+    }
+    input[type="radio"]:checked {
+      display:none;
+
+      + label {
+        color: $base-font-color;
+        span {
+          background-color: $action-color;
+        }
+      }
+
+    }
+  }
+
+}
+
+@media screen and (min-width: $tablet-size) {
+  .selector {
+    @include flex-direction(row);
+  }
+}

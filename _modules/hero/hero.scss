@@ -1,0 +1,30 @@
+// hero styles
+.hero {
+  @include span-columns(12);
+  > h1,
+  > h2,
+  > p {
+    text-align: $hero-text-align;
+  }
+  > h1 {
+    font-size: $heading-font-size;
+    color: $hero-font-color;
+    text-transform: $hero-text-transform;
+  }
+  > h2 {
+    color: $hero-font-color;
+  }
+  p {
+    color: $hero-font-color;
+  }
+  button {
+
+  }
+}
+
+@media screen and (min-width: $tablet-size) {
+  .hero {
+    @include span-columns(6);
+    font-size: $hero-heading-font-size;
+  }
+}

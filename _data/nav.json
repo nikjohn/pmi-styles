@@ -1,0 +1,26 @@
+{
+  "items" : [
+    {
+      "label" : "Menu",
+      "href" : "/menu"
+    },
+    {
+      "label" : "Order",
+      "href" : "/order"
+    },
+    {
+      "label" : "Deals",
+      "href" : "/deals"
+    },
+    {
+      "label" : "Nutrition",
+      "href" : "/nutrition"
+    }
+  ],
+  "logo" : {
+    "src" : "/assets/images/logo.svg",
+    "href" : "/",
+    "alt" : "Papa Murphy's Logo"
+  }
+
+}
