@@ -1,13 +1,60 @@
 {
   "name": "pmi-styles",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     "John",
     "Nikhil (US - Bengaluru) <nikjohn@deloitte.com>"
   ],
   "description": "Global styles for PMI",
   "license": "MIT",
-  "main": "styles/main.scss",
+  "main": [
+        "_styles/main.scss",
+        "_styles/_fonts/NeutrafaceSlabDisplay-Bold.eot",
+        "_styles/_fonts/NeutrafaceSlabDisplay-Bold.svg",
+        "_styles/_fonts/NeutrafaceSlabDisplay-Bold.ttf",
+        "_styles/_fonts/NeutrafaceSlabDisplay-Bold.woff",
+
+        "_styles/_fonts/NeutrafaceSlabDisplay-Light.eot",
+        "_styles/_fonts/NeutrafaceSlabDisplay-Light.svg",
+        "_styles/_fonts/NeutrafaceSlabDisplay-Light.ttf",
+        "_styles/_fonts/NeutrafaceSlabDisplay-Light.woff",
+
+        "_styles/_fonts/NeutrafaceSlabText-Book.eot",
+        "_styles/_fonts/NeutrafaceSlabText-Book.svg",
+        "_styles/_fonts/NeutrafaceSlabText-Book.ttf",
+        "_styles/_fonts/NeutrafaceSlabText-Book.woff",
+
+        "_styles/_fonts/NeutrafaceSlabText-Demi.eot",
+        "_styles/_fonts/NeutrafaceSlabText-Demi.svg",
+        "_styles/_fonts/NeutrafaceSlabText-Demi.ttf",
+        "_styles/_fonts/NeutrafaceSlabText-Demi.woff",
+
+        "_styles/_fonts/NeutrafaceSlabText-Light.eot",
+        "_styles/_fonts/NeutrafaceSlabText-Light.svg",
+        "_styles/_fonts/NeutrafaceSlabText-Light.ttf",
+        "_styles/_fonts/NeutrafaceSlabText-Light.woff",
+
+        "_styles/_fonts/opensans-bold-webfont.eot",
+        "_styles/_fonts/opensans-bold-webfont.svg",
+        "_styles/_fonts/opensans-bold-webfont.ttf",
+        "_styles/_fonts/opensans-bold-webfont.woff",
+
+        "_styles/_fonts/opensans-light-webfont.eot",
+        "_styles/_fonts/opensans-light-webfont.svg",
+        "_styles/_fonts/opensans-light-webfont.ttf",
+        "_styles/_fonts/opensans-light-webfont.woff",
+
+        "_styles/_fonts/opensans-regular-webfont.eot",
+        "_styles/_fonts/opensans-regular-webfont.svg",
+        "_styles/_fonts/opensans-regular-webfont.ttf",
+        "_styles/_fonts/opensans-regular-webfont.woff",
+
+
+        "_styles/_fonts/opensans-semibold-webfont.eot",
+        "_styles/_fonts/opensans-semibold-webfont.svg",
+        "_styles/_fonts/opensans-semibold-webfont.ttf",
+        "_styles/_fonts/opensans-semibold-webfont.woff"
+    ],
   "ignore": [
     "**/.*",
     "node_modules",
